@@ -1,0 +1,11 @@
+platform :ios, '12.0'
+
+target 'Runner' do
+  use_frameworks!
+
+  # Pods for Runner
+  pod 'Alamofire', '~> 5.4'
+
+  # CocoaPods analytics sends network stats synchronously affecting flutter builds
+  ENV['COCOAPODS_DISABLE_STATS'] = 'true'
+end
