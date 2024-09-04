@@ -36,6 +36,7 @@ class Content extends StatelessWidget {
         ),
         const Positioned(
           top: 20,
+          left: 10,
           child: SizedBox(
             height: 50,
             child: Image(
@@ -45,12 +46,12 @@ class Content extends StatelessWidget {
         ),
         Positioned(
           top: 60,
-          left: 10,
+          left: 20,
           child: Container(
             child: modifiedText(
-                text: "it's where you want to be!",
+                text: "You're in the perfect place!",
                 color: Colors.grey.shade900,
-                size: 14),
+                size: 15),
           ),
         ),
         Positioned(

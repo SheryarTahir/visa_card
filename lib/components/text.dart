@@ -15,8 +15,8 @@ class modifiedText extends StatelessWidget {
       style: GoogleFonts.mada(
         color: color,
         fontSize: size,
-        textStyle:
-            TextStyle(fontStyle: FontStyle.italic, fontWeight: FontWeight.bold),
+        textStyle: const TextStyle(
+            fontStyle: FontStyle.italic, fontWeight: FontWeight.bold),
       ),
     );
   }
